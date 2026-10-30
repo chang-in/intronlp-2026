@@ -5,7 +5,7 @@ description: Colab에서 바로 열리는 주차별 실습 노트북
 
 ## 여는 방법
 
-각 노트북 맨 위의 **Open in Colab** 배지를 누르면 바로 열린다. 설치할 것도, 로그인 외에 준비할 것도 없다.
+각 노트북 맨 위의 **Open in Colab** 배지를 누르면 바로 열린다. 로컬 설치 없이 시작할 수 있다. 필요한 패키지·글꼴·모델은 제공된 준비 셀에서 설치하거나 내려받으므로 첫 실행에는 네트워크와 다운로드 시간이 필요하다.
 
 ## 노트북은 이런 모양이다
 
@@ -25,19 +25,24 @@ TODO를 건드리지 않아도 노트북은 처음부터 끝까지 돌아간다.
 | 2 | 언어와 말뭉치, 텍스트 전처리와 단어 분포 | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-02.ipynb) |
 | 3 | 확률론적 언어모델, N-그램 모델 | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-03.ipynb) |
 | 4 | 숨겨진 마르코프 모델(HMM)과 시퀀스 태깅 | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-04.ipynb) |
-| 5 | 통계적 텍스트 분류와 문서 분류 | 준비 중 |
-| 6 | 단어의 의미 표현, 분포적 통계와 임베딩 기초 | 준비 중 |
-| 7 | 신경망 기반 단어 임베딩, Word2Vec | 준비 중 |
-| 8 | 문장 임베딩과 텍스트 유사도 | 준비 중 |
-| 9 | 시퀀스 모델링과 트랜스포머의 등장 | 준비 중 |
-| 10 | 사전학습 언어모델, BERT와 GPT | 준비 중 |
-| 11 | 대규모 언어모델(LLM)의 시대, 특징과 활용 | 준비 중 |
+| 5 | 통계적 텍스트 분류와 문서 분류 | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-05.ipynb) |
+| 6 | 단어의 의미 표현, 분포적 통계와 임베딩 기초 | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-06.ipynb) |
+| 7 | 신경망 기반 단어 임베딩, Word2Vec | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-07.ipynb) |
+| 8 | 문장 임베딩과 텍스트 유사도 | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-08.ipynb) |
+| 9 | 시퀀스 모델링과 트랜스포머의 등장 | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-09.ipynb) |
+| 10 | 사전학습 언어모델, BERT와 GPT | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-10.ipynb) |
+| 11 | 대규모 언어모델(LLM)의 시대, 특징과 활용 | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-11.ipynb) |
 | 12 | 사전학습 모델 활용법, 프롬프트 엔지니어링 | 없음 |
 | 13 | NLP 응용 사례 연구 및 최신 동향 | 없음 |
-| 14 | 언어모델과 사회, 윤리적 이슈와 책임 있는 AI | 준비 중 |
+| 14 | 언어모델과 사회, 윤리적 이슈와 책임 있는 AI | [Colab](https://colab.research.google.com/github/halla-ai/intronlp-2026/blob/main/notebooks/week-14.ipynb) |
 | 15 | 정리 및 향후 학습 안내 | 없음 |
 
 ## 막혔을 때
+
+- 9-10주차는 제공된 셀 실행과 결과 관찰이 필수 활동이다. TODO의 입력 문장 변경은 선택 활동이며 새 코드를 작성하지 않는다
+
+- 모델·자료 다운로드가 실패하면 오류와 생략된 결과를 기록한다. 설명용 모형이나 이미 실행한 결과를 실제 사전학습 모델의 성공으로 표시하지 않는다
+- 12·13·15주차는 노트북 대신 해당 강의의 제공 양식으로 결과를 정리한다
 
 - 런타임이 끊기면 상단 메뉴에서 다시 연결하고 처음 셀부터 실행한다
 - 오류가 나면 오류 메시지 마지막 줄을 먼저 읽는다. 대개 거기에 답이 있다
